@@ -1,14 +1,30 @@
 {
   "name": "personal-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": {
+    "email": "lambert.quentin96@gmail.com",
+    "name": "LAMBERT Quentin"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.9.1",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-multi-carousel": "^2.8.2",
+    "react-on-screen": "^2.1.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
