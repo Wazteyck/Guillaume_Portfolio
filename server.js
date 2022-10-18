@@ -9,7 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5000, () => console.log("Serveur en cours d'utilisation..."));
+app.listen(process.env.PORT_SERVER, () =>
+  console.log("Serveur en cours d'utilisation...")
+);
 
 var smtpConfig = {
   host: "smtp.gmail.com",
