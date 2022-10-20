@@ -1,5 +1,6 @@
 {
-  "name": "Portfolio - Guillaume - Personal Coach",
+  "name": "portfolio-guillaume-personalcoach",
+  "description": "Portfolio for personal coaching LAMBERT Guillaume",
   "version": "1.0.0",
   "author": {
     "email": "lambert.quentin96@gmail.com",
@@ -32,7 +33,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
