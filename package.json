@@ -1,7 +1,6 @@
 {
   "name": "Portfolio - Guillaume - Personal Coach",
   "version": "1.0.0",
-  "proxy": "http://localhost:5000",
   "author": {
     "email": "lambert.quentin96@gmail.com",
     "name": "LAMBERT Quentin"
