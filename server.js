@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(process.env.PORT_SERVER, () =>
+app.listen(process.env.PORT || 5000, () =>
   console.log("Serveur en cours d'utilisation...")
 );
 
