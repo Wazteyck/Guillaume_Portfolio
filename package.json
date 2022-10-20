@@ -6,6 +6,9 @@
     "email": "lambert.quentin96@gmail.com",
     "name": "LAMBERT Quentin"
   },
+  "engines": {
+    "node": "16.4.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
